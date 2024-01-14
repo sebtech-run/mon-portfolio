@@ -1,0 +1,12 @@
+@import "../style/layout/header";
+@import "../style/layout/footer.scss";
+@import "../style/layout/navbar.scss";
+@import "../style/components/home/home.scss";
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6E6E6E;
+}

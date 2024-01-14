@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #BAFF39;
+    margin-top: 20px;
+    border-radius: 25%;
+
+    &__title {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+
+    }
+}
+
+.section-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    &__div1 {
+        width: 50%;
+        height: 600px;
+        background-color: #f2f3f4;
+
+        justify-content: center;
+        position: relative;
+        border-radius: 10px;
+
+        .circle {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url("../assets/images/man-1283231_1280.webp");
+            background-size: cover;
+            padding: 130px;
+            border-radius: 50px;
+            background-color: orange;
+
+            &__text {
+                position: absolute;
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                h2 {
+                    text-transform: uppercase;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+
+    &__div2 {
+        width: 50%;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        background-color: #f2f3f4;
+
+      div {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .fa-solid {
+            font-size: 25px;
+            color: #10100f;
+        }
+       
+
+        .fa-terminal {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 25px;
+            
+        }
+        
+        p {
+           padding: 0 20px 0 20px;
+           font-family: 'Fira Code', monospace;
+           font-size: 20px;
+           
+        }
+
+        .fa-code {
+            display: flex;
+            justify-content: end;
+            padding-right: 25px;
+
+        }
+
+      }
+
+    }
+
+
+
+}
