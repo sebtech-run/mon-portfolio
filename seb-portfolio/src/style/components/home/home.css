@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .home {
   display: flex;
   justify-content: center;
   width: 300px;
   margin: auto;
-  padding: 20px;
-  border: 1px solid #BAFF39;
   margin-top: 20px;
   border-radius: 25%;
 }
 .home__title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira";
+  font-size: 40px;
+  font-weight: 600;
   color: white;
+  text-transform: uppercase;
+  border-bottom: 1px solid #BAFF39;
 }
 
 .section-container {
@@ -23,7 +26,7 @@
 .section-container__div1 {
   width: 50%;
   height: 600px;
-  background-color: white;
+  background-color: #f2f3f4;
   justify-content: center;
   position: relative;
   border-radius: 10px;
@@ -51,8 +54,33 @@
 }
 .section-container__div2 {
   width: 50%;
-  height: 600px;
+  height: auto;
   background-color: white;
-  justify-content: center;
   border-radius: 10px;
+  display: flex;
+  background-color: #f2f3f4;
+}
+.section-container__div2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-container__div2 div .fa-solid {
+  font-size: 25px;
+  color: #10100f;
+}
+.section-container__div2 div .fa-terminal {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+.section-container__div2 div p {
+  padding: 0 20px 0 20px;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
+}
+.section-container__div2 div .fa-code {
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
 }/*# sourceMappingURL=home.css.map */

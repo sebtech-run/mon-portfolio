@@ -9,14 +9,17 @@
     justify-content: center;
     width: 300px;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #BAFF39;
+   
     margin-top: 20px;
     border-radius: 25%;
 
     &__title {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Fira';
+        font-size: 40px;
+        font-weight: 600;
         color: white;
+        text-transform: uppercase;
+        border-bottom: 1px solid #BAFF39 ;
 
     }
 }

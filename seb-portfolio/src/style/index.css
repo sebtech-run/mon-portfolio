@@ -1,18 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
   width: 100%;
-  background-color: #BAFF39;
+  background-color: #6E6E6E;
 }
 .header__title {
   text-transform: uppercase;
   padding-left: 10px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
+  color: white;
 }
 
 .footer {
@@ -24,18 +27,105 @@
   height: 209px;
   margin-top: 60px;
   background-color: #BAFF39;
+  border-radius: 10px 10px 0 0;
 }
 
 .nav-header {
   display: flex;
   gap: 17px;
-  padding-right: 10px;
 }
-.nav-header__nav-link-home, .nav-header__nav-link-about, .nav-header__nav-link-portfolio, .nav-header__nav-link-contact {
+.nav-header__nav-link-home, .nav-header__nav-link-portfolio, .nav-header__nav-link-contact {
   text-decoration: none;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+
+.nav-header__nav-link-home:hover, .nav-header__nav-link-portfolio:hover, .nav-header__nav-link-contact:hover {
+  color: #BAFF39;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #BAFF39;
+  margin-top: 20px;
+  border-radius: 25%;
+}
+.home__title {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.section-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.section-container__div1 {
+  width: 50%;
+  height: 600px;
+  background-color: #f2f3f4;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+}
+.section-container__div1 .circle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../assets/images/man-1283231_1280.webp");
+  background-size: cover;
+  padding: 130px;
+  border-radius: 50px;
+  background-color: orange;
+}
+.section-container__div1 .circle__text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section-container__div1 .circle__text h2 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.section-container__div2 {
+  width: 50%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  background-color: #f2f3f4;
+}
+.section-container__div2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-container__div2 div .fa-solid {
+  font-size: 25px;
+  color: #10100f;
+}
+.section-container__div2 div .fa-terminal {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+.section-container__div2 div p {
+  padding: 0 20px 0 20px;
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
+}
+.section-container__div2 div .fa-code {
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
 }
 
 * {

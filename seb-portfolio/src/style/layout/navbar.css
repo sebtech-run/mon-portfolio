@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .nav-header {
   display: flex;
-  gap: 17px;
-  padding-right: 10px;
+  gap: 25px;
 }
 .nav-header__nav-link-home, .nav-header__nav-link-portfolio, .nav-header__nav-link-contact {
   text-decoration: none;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
 
 .nav-header__nav-link-home:hover, .nav-header__nav-link-portfolio:hover, .nav-header__nav-link-contact:hover {
