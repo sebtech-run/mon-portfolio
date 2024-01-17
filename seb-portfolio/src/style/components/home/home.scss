@@ -9,7 +9,6 @@
     justify-content: center;
     width: 300px;
     margin: auto;
-   
     margin-top: 20px;
     border-radius: 25%;
 
@@ -19,7 +18,15 @@
         font-weight: 600;
         color: white;
         text-transform: uppercase;
-        border-bottom: 1px solid #BAFF39 ;
+        
+        letter-spacing: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: 768px) {
+            font-size: 25px;
+          }
 
     }
 }
@@ -29,15 +36,25 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+   
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        
+      }
 
     &__div1 {
         width: 50%;
         height: 600px;
-        background-color: #f2f3f4;
-
+        background-color: black;
         justify-content: center;
         position: relative;
         border-radius: 10px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: 500px;
+          }
 
         .circle {
             position: absolute;
@@ -48,7 +65,12 @@
             background-size: cover;
             padding: 130px;
             border-radius: 50px;
-            background-color: orange;
+            background-color: black;
+
+            @media screen and (max-width: 768px) {
+                padding: 90px;
+                top: 30%;
+              }
 
             &__text {
                 position: absolute;
@@ -59,6 +81,13 @@
                 h2 {
                     text-transform: uppercase;
                     font-family: 'Montserrat', sans-serif;
+                    color: white;
+
+                    @media screen and (max-width: 768px) {
+                       text-align: center;
+                      }
+
+                    
                 }
             }
         }
@@ -70,7 +99,11 @@
         background-color: white;
         border-radius: 10px;
         display: flex;
-        background-color: #f2f3f4;
+        background-color: rgb(235, 181, 80);
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+          }
 
       div {
        
@@ -81,6 +114,10 @@
         .fa-solid {
             font-size: 25px;
             color: #10100f;
+
+            @media screen and (max-width: 768px) {
+                padding-top: 5px;
+                }
         }
        
 
@@ -103,6 +140,10 @@
             justify-content: end;
             padding-right: 25px;
 
+            @media screen and (max-width: 768px) {
+               padding-bottom: 5px;
+                }
+
         }
 
       }
@@ -111,4 +152,21 @@
 
 
 
+}
+
+.banner {
+    background-image: url("/src/assets/images/graphic-arts-1771704_1280.jpg");
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        height: 130px;
+        margin-top: 20px;
+      }
+   
+    
 }

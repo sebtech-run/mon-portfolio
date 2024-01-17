@@ -4,15 +4,18 @@ import React from 'react';
 const Home = () => {
     return (
      <>   
+   
+    <div className="banner">
     <div className='home'>
      <h1 className='home__title'>à propos</h1>
     </div>
+           
+     </div>
      <main>
        <section className='section-container'>
 
         <div className="section-container__div1">
-          <div className="circle">
-          </div> 
+        <div className="circle"></div>
           <div className="circle__text">
             <h2>Intégrateur Web</h2>
             </div> 
@@ -29,9 +32,6 @@ const Home = () => {
           </p>
           <i class="fa-solid fa-code"></i>
         </div>
-       
-
-            
         </div>
        </section>
      </main>

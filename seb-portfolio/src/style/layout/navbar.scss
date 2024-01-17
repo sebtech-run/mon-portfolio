@@ -5,6 +5,10 @@
 .nav-header {
     display: flex;
     gap: 25px;
+
+    @media screen and (max-width: 768px) {
+        gap: 12px;
+        }
    
 
     &__nav-link-home,
@@ -13,8 +17,12 @@
         text-decoration: none;
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
-        color: rgb(255, 255, 255);
+        color: rgb(16, 15, 15);
         text-transform: uppercase;
+
+        @media screen and (max-width: 768px) {
+          font-size: 12px;
+          }
         
     }
 }
@@ -25,7 +33,7 @@
     &__nav-link-portfolio:hover,
     &__nav-link-contact:hover {
 
-        color: #BAFF39;
+        color: orange;
 
     }
 

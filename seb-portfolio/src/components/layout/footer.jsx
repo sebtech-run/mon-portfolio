@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer">
         {/* <img src={logo} alt="" className="footer__logo" /> */}
         <p className="footer__text-copyright">
-        © 2024 bouillet sébastien. All rights reserved
+        © 2024 <span> bouillet sébastien</span>. All rights reserved
         </p>
      </footer>
     );

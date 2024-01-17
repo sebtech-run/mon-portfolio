@@ -3,14 +3,24 @@
   display: flex;
   gap: 25px;
 }
+@media screen and (max-width: 768px) {
+  .nav-header {
+    gap: 12px;
+  }
+}
 .nav-header__nav-link-home, .nav-header__nav-link-portfolio, .nav-header__nav-link-contact {
   text-decoration: none;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(16, 15, 15);
   text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .nav-header__nav-link-home, .nav-header__nav-link-portfolio, .nav-header__nav-link-contact {
+    font-size: 12px;
+  }
 }
 
 .nav-header__nav-link-home:hover, .nav-header__nav-link-portfolio:hover, .nav-header__nav-link-contact:hover {
-  color: #BAFF39;
+  color: orange;
 }/*# sourceMappingURL=navbar.css.map */

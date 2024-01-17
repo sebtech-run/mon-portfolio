@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+.section-competence {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .section-competence {
+    flex-direction: column;
+  }
+}
+.section-competence__div1 {
+  width: 50%;
+  height: 600px;
+  background-color: black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .section-competence__div1 {
+    width: 100%;
+  }
+}
+.section-competence__div1 h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: orange;
+}
+.section-competence__div1__text {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding-left: 40px;
+}
+.section-competence__div1__text i {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid orange;
+  font-size: 25px;
+  color: white;
+}
+.section-competence__div1__text h3 {
+  text-transform: uppercase;
+  font-family: "Fira Code", monospace;
+  color: white;
+}
+.section-competence__div2 {
+  width: 50%;
+  height: 600px;
+  background-color: #f2f3f4;
+  border-radius: 10px;
+}
+.section-competence__div2 h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}/*# sourceMappingURL=competence.css.map */

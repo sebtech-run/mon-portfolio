@@ -9,16 +9,30 @@
     align-items: center;
     margin: auto;
     width: 100%;
-    background-color: #6E6E6E;
+    background-color: #ffffff;
+    gap: 10px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
 
     &__title {
         text-transform: uppercase;
         padding-left: 10px;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 3px;
-        color: white;
+        color: rgb(20, 17, 17);
+
+        @media screen and (max-width: 768px) {
+           
+            
+          }
        
 
+    }
+
+    span {
+        color: orange;
     }
 
 

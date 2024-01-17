@@ -2,12 +2,14 @@
 @import "../style/layout/footer.scss";
 @import "../style/layout/navbar.scss";
 @import "../style/components/home/home.scss";
-@import "../style/components/collapse.scss";
+
+@import "../style/components/competence/competence.scss";
+@import "../style/components/portfolio/portfolio.scss";
 
 *{
   box-sizing: border-box;
 }
 
 body {
-  background-color: #6E6E6E;
+  background-color: #ffffff;
 }
