@@ -21,6 +21,6 @@
   }
 }
 
-.nav-header__nav-link-home:hover, .nav-header__nav-link-portfolio:hover, .nav-header__nav-link-contact:hover {
+.nav-header .active {
   color: orange;
 }/*# sourceMappingURL=navbar.css.map */

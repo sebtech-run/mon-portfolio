@@ -14,7 +14,7 @@
 .section-competence__div1 {
   width: 50%;
   height: 600px;
-  background-color: black;
+  background-color: rgb(235, 181, 80);
   border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
@@ -25,14 +25,14 @@
 .section-competence__div1 h2 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  color: orange;
+  color: white;
 }
 .section-competence__div1__text {
   display: flex;
   flex-direction: row;
   gap: 20px;
   align-items: center;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 .section-competence__div1__text i {
   color: grey;
@@ -42,22 +42,35 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  border: 2px solid orange;
-  font-size: 25px;
+  border: 2px solid black;
+  font-size: 27px;
   color: white;
 }
 .section-competence__div1__text h3 {
   text-transform: uppercase;
   font-family: "Fira Code", monospace;
-  color: white;
+  color: black;
 }
 .section-competence__div2 {
   width: 50%;
   height: 600px;
-  background-color: #f2f3f4;
+  background-color: black;
   border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .section-competence__div2 {
+    width: 100%;
+  }
 }
 .section-competence__div2 h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  color: rgb(235, 181, 80);
+}
+.section-competence__div2 i {
+  color: rgb(235, 181, 80);
+  border: 2px solid white;
+}
+.section-competence__div2 h3 {
+  color: white;
 }/*# sourceMappingURL=competence.css.map */

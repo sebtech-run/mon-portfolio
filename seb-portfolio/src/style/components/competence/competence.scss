@@ -15,7 +15,7 @@
     &__div1 {
         width: 50%;
         height: 600px;
-        background-color: black;
+        background-color: rgb(235, 181, 80);
         border-radius: 10px;
 
         @media screen and (max-width: 768px) {
@@ -25,7 +25,7 @@
         h2 {
             text-align: center; 
             font-family: 'Montserrat', sans-serif;
-            color: orange;
+            color: white;
 
           
         }
@@ -35,21 +35,21 @@
              flex-direction: row;
              gap: 20px;
              align-items: center;
-             padding-left: 40px;
+             padding-left: 50px;
           
             
 
             i {
                 
-                color: grey;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+               color: grey;
+               display: flex;
+               justify-content: center;
+               align-items: center;
                border-radius:50%;
                width:50px;
                height:50px;
-               border:2px solid orange;
-               font-size: 25px; 
+               border:2px solid black;
+               font-size: 27px; 
                color: white;
               
             }
@@ -57,7 +57,7 @@
             h3 {
                 text-transform: uppercase;
                 font-family: 'Fira Code', monospace;
-                color: white;
+                color: black;
             }
         }   
     }
@@ -65,15 +65,32 @@
     &__div2 {
         width: 50%;
         height: 600px;
-        background-color: #f2f3f4;
+        background-color: black;
         border-radius: 10px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            }
 
       
 
             h2 {
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
+                color: rgb(235, 181, 80);
             }
+
+            i {
+                color: rgb(235, 181, 80);
+                border:2px solid white;
+            }
+
+            h3{
+                color: white;
+              
+            }
+
+            
         }
 
     }

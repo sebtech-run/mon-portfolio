@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+
+
 const Collapse = ({ title, content }) => {
   //declaration du state en utilisant le Hook useState()
   const [isOpen, setIsOpen] = useState(false); // je definie le state du toggle (et false par défaut)

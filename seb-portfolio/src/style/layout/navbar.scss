@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
-
 .nav-header {
     display: flex;
     gap: 25px;
@@ -10,7 +8,6 @@
         gap: 12px;
         }
    
-
     &__nav-link-home,
     &__nav-link-portfolio,
     &__nav-link-contact {
@@ -22,20 +19,13 @@
 
         @media screen and (max-width: 768px) {
           font-size: 12px;
-          }
-        
+          }  
     }
 }
 
 .nav-header {
 
-    &__nav-link-home:hover,
-    &__nav-link-portfolio:hover,
-    &__nav-link-contact:hover {
-
+    .active {
         color: orange;
-
     }
-
-
 }

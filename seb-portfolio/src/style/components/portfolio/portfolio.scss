@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+
+
+
+.title-portfolio {
+    text-align: center;
+    font-family: 'Fira Code', monospace;;
+
+}
+
 .section-gallery {
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -11,9 +24,6 @@
         flex-direction: column;
         }
     
-    
-    
-
     &__card {
         display: flex;
         flex-direction: row;
@@ -31,8 +41,6 @@
           
           }
 
-        
-
           &__image1 {
             width: 50%;
             background-image: url("/src/assets/images/Capture\ d\'écran\ 2024-01-17\ 171304.png");
@@ -44,10 +52,22 @@
             background-image: url("/src/assets/images/Capture\ d\'écran\ 2024-01-17\ 172950.png");
             background-size: cover;
           }
-
-
-       
-       
-
     }
+}
+
+.button-portfolio {
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   margin-top: 30px;
+   padding: 24px 34px;
+   background-color: black;
+   border-radius: 10px;
+
+   a {
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+   }
 }

@@ -8,7 +8,7 @@ import Home from './pages/home.jsx'
 import Portfolio from './pages/portfolio.jsx'
 import Contact from './pages/contact.jsx'
 import Competence from './pages/competence.jsx'
-import Loisir from './pages/loisir.jsx'
+
 
 
 const router = createBrowserRouter ([
@@ -30,10 +30,7 @@ const router = createBrowserRouter ([
       element: <Portfolio/>
     },
 
-    {
-      path: "/loisirs",
-      element: <Loisir/>
-    },
+   
    
     {
       path: "/contact",

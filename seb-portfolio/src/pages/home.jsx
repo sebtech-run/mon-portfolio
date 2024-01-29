@@ -8,12 +8,11 @@ const Home = () => {
     <div className="banner">
     <div className='home'>
      <h1 className='home__title'>à propos</h1>
-    </div>
-           
+     </div>     
      </div>
      <main>
+      
        <section className='section-container'>
-
         <div className="section-container__div1">
         <div className="circle"></div>
           <div className="circle__text">
@@ -25,10 +24,10 @@ const Home = () => {
         <div>
         <i class="fa-solid fa-terminal"></i>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident et dolore vero repellat inventore explicabo distinctio ea excepturi voluptate fugiat. Aliquid dicta possimus recusandae dolore blanditiis corrupti ut nobis! Impedit.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident et dolore vero repellat inventore explicabo distinctio ea excepturi voluptate fugiat. Aliquid dicta possimus recusandae dolore blanditiis corrupti ut nobis! Impedit.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident et dolore vero repellat inventore explicabo distinctio ea excepturi voluptate fugiat.
+         Bonjour, je m'appelle<strong> Bouillet Sébastien</strong>, j'ai 48 ans et je suis actuellement en reconversion professionnelle dans le développement web.<br/>
+         A ce jour, j'ai suivi une formation diplômante chez OpenClassroom afin d'acquérir des compétences dans le développement frontend avec des langages de programmation tels que HTML, CSS, SASS, REACT...<br/>
+         Mon objectif est d'acquérir de l'experience dans le développement web en travaillant sur des nouveaux projets.
+         
           </p>
           <i class="fa-solid fa-code"></i>
         </div>
