@@ -39,10 +39,14 @@
 }
 
 .section-container {
-    padding-top: 50px;
+   
     display: flex;
     flex-direction: row;
     gap: 20px;
+    background-color: #F8F8FF ;
+    margin-top: 40px;
+    border-radius: 10px;
+   
    
 
     @media screen and (max-width: 768px) {
@@ -51,12 +55,15 @@
       }
 
     &__div1 {
-        width: 50%;
+        width: 45%;
         height: 600px;
-        background-color: black;
+        background: linear-gradient(180deg, rgb(169, 169, 169), orange);
         justify-content: center;
         position: relative;
         border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
 
         @media screen and (max-width: 768px) {
             width: 100%;
@@ -90,6 +97,8 @@
                     text-transform: uppercase;
                     font-family: 'Montserrat', sans-serif;
                     color: white;
+                    width: 200px;
+                    text-align: center;
 
                     @media screen and (max-width: 768px) {
                        text-align: center;
@@ -102,12 +111,16 @@
     }
 
     &__div2 {
-        width: 50%;
-        height: auto;
+        width: 60%;
+        
         background-color: white;
         border-radius: 10px;
         display: flex;
-        background-color: rgb(235, 181, 80);
+      
+        display: flex;
+        margin: auto;
+        padding: 5px;
+        border: 5px solid black;
 
         @media screen and (max-width: 768px) {
             width: 100%;
@@ -118,6 +131,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 20px;
 
         .fa-solid {
             font-size: 25px;
@@ -152,6 +166,20 @@
                padding-bottom: 5px;
                 }
 
+        }
+
+        .navdiv2 {
+            color: rgb(0, 0, 0);
+            padding: 14px 24px;
+            background: linear-gradient(45deg, rgb(169, 169, 169), orange);
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+            font-family: 'Fira Code', monospace;
+
+          
         }
 
       }

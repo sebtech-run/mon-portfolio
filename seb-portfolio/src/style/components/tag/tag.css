@@ -1,0 +1,32 @@
+.tag-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.tag-container__button {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 8px 8px;
+  background-color: black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .tag-container__button {
+    font-size: 12px;
+  }
+}
+
+.blue {
+  background-color: #1498f9;
+}
+
+.red {
+  background-color: red;
+}/*# sourceMappingURL=tag.css.map */

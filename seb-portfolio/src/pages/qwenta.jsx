@@ -1,12 +1,11 @@
 import React from 'react';
 
-
-const About = () => {
+const Qwenta = () => {
     return (
         <div>
-            <h1>Présentation</h1>
+            Qwenta
         </div>
     );
 };
 
-export default About;
+export default Qwenta;

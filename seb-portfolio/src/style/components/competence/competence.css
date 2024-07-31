@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .section-competence {
-  padding-top: 50px;
+  padding: 50px 50px;
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: center;
+  background-color: #F8F8FF;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .section-competence {
@@ -12,10 +16,14 @@
   }
 }
 .section-competence__div1 {
-  width: 50%;
-  height: 600px;
-  background-color: rgb(235, 181, 80);
+  width: 60%;
+  height: 700px;
+  background-color: white;
   border-radius: 10px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  border: 5px solid black;
 }
 @media screen and (max-width: 768px) {
   .section-competence__div1 {
@@ -25,14 +33,14 @@
 .section-competence__div1 h2 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: black;
 }
 .section-competence__div1__text {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 25px;
 }
 .section-competence__div1__text i {
   color: grey;
@@ -44,18 +52,25 @@
   height: 50px;
   border: 2px solid black;
   font-size: 27px;
-  color: white;
+  color: rgb(235, 181, 80);
 }
 .section-competence__div1__text h3 {
   text-transform: uppercase;
   font-family: "Fira Code", monospace;
   color: black;
 }
+.section-competence__div1__text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
 .section-competence__div2 {
-  width: 50%;
-  height: 600px;
-  background-color: black;
+  width: 45%;
+  height: 700px;
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
   border-radius: 10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   .section-competence__div2 {
@@ -65,12 +80,25 @@
 .section-competence__div2 h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  color: rgb(235, 181, 80);
+  color: black;
 }
 .section-competence__div2 i {
-  color: rgb(235, 181, 80);
+  color: black;
   border: 2px solid white;
 }
 .section-competence__div2 h3 {
   color: white;
+  font-family: "Fira Code", monospace;
+}
+
+.competence__div3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
 }/*# sourceMappingURL=competence.css.map */

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+.fiche-container {
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.kasa-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.kasa-button a {
+  padding: 8px 8px;
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.fiche-banner-kasa {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  height: 300px;
+  background-image: url("/src/assets/images/image-kasa.png");
+  background-size: cover;
+}
+
+.fiche-text {
+  text-align: center;
+}
+.fiche-text h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.fiche-text p {
+  width: 75%;
+  margin: auto;
+  font-size: 20px;
+  font-family: "Fira Code", monospace;
+  border: 2px solid black;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.fleche-return {
+  margin-top: 30px;
+}
+.fleche-return_icon {
+  color: black;
+  font-size: 25px;
+}
+.fleche-return_icon i {
+  padding: 10px;
+}/*# sourceMappingURL=kasa.css.map */

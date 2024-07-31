@@ -2,13 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
   
-  $secondary-color: #f7f7f7;
-  $primary-color : grey;
-  $tertiary-color: green;
+ 
 
 .collapse {
     display: flex;
-    width: 100%;
+    width: 50%;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -32,14 +30,14 @@
         background-color:#f2f3f4;
         margin: 0 auto;
         margin-top: 1.5em;
-        border-radius: 10px;
+        
   
         @media screen and (max-width: 768px) {
           padding: 0 0.1em;
         }
   
         h2 {
-          color: $tertiary-color;
+          color: black;
           font-family: 'Montserrat', sans-serif;
           font-size: 24px;
           font-style: normal;
@@ -53,7 +51,7 @@
         }
 
         p {
-          color: $tertiary-color;
+          color: black;
           i {
             cursor: pointer;
             padding: 1em;
@@ -69,15 +67,15 @@
       }
 
        &__content {
-        background-color: $secondary-color;
+        background-color: white;
         width: 100%;
-        border-radius: 5px;
+        border-radius: 0px 0px 10px 10px;
   
         div {
           font-family: 'Montserrat', sans-serif;
           font-size: 20px;
           font-weight: 400;
-          color: $primary-color;
+          color: black;
           margin: 0 auto;
           padding: 0.8em;
 

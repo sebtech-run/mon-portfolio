@@ -3,20 +3,31 @@
 
 
 .section-competence {
-    padding-top: 50px;
+    padding: 50px 50px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+    justify-content: center;
+    background-color: #F8F8FF;
+    margin-top: 40px;
+    border-radius: 10px;
 
     @media screen and (max-width: 768px) {
        flex-direction: column;
+       padding: 0 0;
+       height: auto;
         }
 
     &__div1 {
-        width: 50%;
-        height: 600px;
-        background-color: rgb(235, 181, 80);
+        width: 60%;
+        
+       background-color: white;
         border-radius: 10px;
+        display: flex;
+        padding: 5px;
+        flex-direction: column;
+        border: 5px solid black;
+        
 
         @media screen and (max-width: 768px) {
             width: 100%;
@@ -25,7 +36,9 @@
         h2 {
             text-align: center; 
             font-family: 'Montserrat', sans-serif;
-            color: white;
+            color: black;
+
+           
 
           
         }
@@ -33,9 +46,9 @@
         &__text {
              display: flex;
              flex-direction: row;
-             gap: 20px;
+             gap: 10px;
              align-items: center;
-             padding-left: 50px;
+             padding-left: 10px;
           
             
 
@@ -50,7 +63,7 @@
                height:50px;
                border:2px solid black;
                font-size: 27px; 
-               color: white;
+               color: rgb(235, 181, 80);
               
             }
 
@@ -59,14 +72,23 @@
                 font-family: 'Fira Code', monospace;
                 color: black;
             }
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+               
+            }
         }   
     }
 
     &__div2 {
-        width: 50%;
-        height: 600px;
-        background-color: black;
+        width: 45%;
+       
+        background: linear-gradient(90deg, rgb(169, 169, 169), orange);
         border-radius: 10px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
 
         @media screen and (max-width: 768px) {
             width: 100%;
@@ -77,22 +99,38 @@
             h2 {
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
-                color: rgb(235, 181, 80);
+                color: black;
             }
 
             i {
-                color: rgb(235, 181, 80);
+                color: black;
                 border:2px solid white;
             }
 
             h3{
                 color: white;
+                font-family: 'Fira Code', monospace;
               
             }
 
             
         }
 
+      
+
+    }
+
+    .competence__div3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid black ;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
     }
 
 

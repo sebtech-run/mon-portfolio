@@ -3,11 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .header {
   display: flex;
@@ -75,8 +77,15 @@
   }
 }
 
-.nav-header__nav-link-home:hover, .nav-header__nav-link-portfolio:hover, .nav-header__nav-link-contact:hover {
+.nav-header .active {
   color: orange;
+}
+
+.home-citation {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
 }
 
 .home {
@@ -105,10 +114,13 @@
 }
 
 .section-container {
-  padding-top: 50px;
+  padding: 50px 50px;
   display: flex;
   flex-direction: row;
   gap: 20px;
+  background-color: #F8F8FF;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .section-container {
@@ -116,12 +128,15 @@
   }
 }
 .section-container__div1 {
-  width: 50%;
+  width: 45%;
   height: 600px;
-  background-color: black;
+  background: linear-gradient(180deg, rgb(169, 169, 169), orange);
   justify-content: center;
   position: relative;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 @media screen and (max-width: 768px) {
   .section-container__div1 {
@@ -134,7 +149,7 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../assets/images/man-1283231_1280.webp");
+  background-image: url("../assets/images/photo-seb1.jpeg");
   background-size: cover;
   padding: 130px;
   border-radius: 50px;
@@ -156,6 +171,8 @@
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   color: white;
+  width: 200px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .section-container__div1 .circle__text h2 {
@@ -163,12 +180,15 @@
   }
 }
 .section-container__div2 {
-  width: 50%;
-  height: auto;
+  width: 60%;
+  height: 600px;
   background-color: white;
   border-radius: 10px;
   display: flex;
-  background-color: rgb(235, 181, 80);
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  border: 5px solid black;
 }
 @media screen and (max-width: 768px) {
   .section-container__div2 {
@@ -179,6 +199,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 20px;
 }
 .section-container__div2 div .fa-solid {
   font-size: 25px;
@@ -209,6 +230,17 @@
     padding-bottom: 5px;
   }
 }
+.section-container__div2 div .navdiv2 {
+  color: rgb(0, 0, 0);
+  padding: 14px 24px;
+  background: linear-gradient(45deg, rgb(169, 169, 169), orange);
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  font-family: "Fira Code", monospace;
+}
 
 .banner {
   background-image: url("/src/assets/images/graphic-arts-1771704_1280.jpg");
@@ -228,7 +260,7 @@
 
 .collapse {
   display: flex;
-  width: 100%;
+  width: 50%;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -252,7 +284,6 @@
   background-color: #f2f3f4;
   margin: 0 auto;
   margin-top: 1.5em;
-  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .collapse__dropdown__title {
@@ -260,7 +291,7 @@
   }
 }
 .collapse__dropdown__title h2 {
-  color: green;
+  color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -274,7 +305,7 @@
   }
 }
 .collapse__dropdown__title p {
-  color: green;
+  color: black;
 }
 .collapse__dropdown__title p i {
   cursor: pointer;
@@ -287,15 +318,15 @@
   }
 }
 .collapse__dropdown__content {
-  background-color: #f7f7f7;
+  background-color: white;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 0px 0px 10px 10px;
 }
 .collapse__dropdown__content div {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: grey;
+  color: black;
   margin: 0 auto;
   padding: 0.8em;
 }
@@ -306,10 +337,14 @@
 }
 
 .section-competence {
-  padding-top: 50px;
+  padding: 50px 50px;
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: center;
+  background-color: #F8F8FF;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .section-competence {
@@ -317,10 +352,14 @@
   }
 }
 .section-competence__div1 {
-  width: 50%;
-  height: 600px;
-  background-color: black;
+  width: 60%;
+  height: 700px;
+  background-color: white;
   border-radius: 10px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  border: 5px solid black;
 }
 @media screen and (max-width: 768px) {
   .section-competence__div1 {
@@ -330,14 +369,14 @@
 .section-competence__div1 h2 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  color: orange;
+  color: black;
 }
 .section-competence__div1__text {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 25px;
 }
 .section-competence__div1__text i {
   color: grey;
@@ -347,39 +386,76 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  border: 2px solid orange;
+  border: 2px solid black;
   font-size: 27px;
-  color: white;
+  color: rgb(235, 181, 80);
 }
 .section-competence__div1__text h3 {
   text-transform: uppercase;
   font-family: "Fira Code", monospace;
-  color: white;
+  color: black;
+}
+.section-competence__div1__text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 .section-competence__div2 {
-  width: 50%;
-  height: 600px;
-  background-color: #f2f3f4;
+  width: 45%;
+  height: 700px;
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
   border-radius: 10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .section-competence__div2 {
+    width: 100%;
+  }
 }
 .section-competence__div2 h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  color: black;
+}
+.section-competence__div2 i {
+  color: black;
+  border: 2px solid white;
+}
+.section-competence__div2 h3 {
+  color: white;
+  font-family: "Fira Code", monospace;
+}
+
+.competence__div3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .title-portfolio {
   text-align: center;
   font-family: "Fira Code", monospace;
+  text-transform: uppercase;
 }
 
 .section-gallery {
-  background-color: rgb(0, 0, 0);
   display: flex;
   height: auto;
   flex-wrap: wrap;
   margin-top: 30px;
   border-radius: 10px;
   padding-top: 20px;
+  background-color: #F8F8FF;
+}
+.section-gallery a {
+  text-decoration: none;
 }
 @media screen and (max-width: 768px) {
   .section-gallery {
@@ -388,13 +464,36 @@
 }
 .section-gallery__card {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  width: 30%;
+  width: 45%;
   margin: auto;
-  height: 300px;
-  background-color: rgb(255, 255, 255);
+  height: 400px;
   margin-top: 20px;
   margin-bottom: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  padding: 5px;
+}
+.section-gallery__card__title {
+  position: absolute;
+  right: 20%;
+  top: 0%;
+  transform: translate(50%, -50%);
+  transition: transform 1.5s;
+  text-decoration: none;
+}
+.section-gallery__card__title :hover {
+  transform: scale(1.1);
+}
+.section-gallery__card__title h2 {
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
+  font-size: 25px;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   .section-gallery__card {
@@ -402,14 +501,143 @@
   }
 }
 .section-gallery__card__image1 {
-  width: 50%;
-  background-image: url("/src/assets/images/Capture d'écran 2024-01-17 171304.png");
+  width: 100%;
+  background-image: url("/src/assets/images/image-kasa.png");
   background-size: cover;
+  border-radius: 10px;
 }
 .section-gallery__card__image2 {
-  width: 50%;
+  width: 100%;
   background-image: url("/src/assets/images/Capture d'écran 2024-01-17 172950.png");
   background-size: cover;
+  border-radius: 10px;
+}
+.section-gallery__card__image3 {
+  width: 100%;
+  background-image: url("/src/assets/images/Capture d'écran 2024-01-29 181936.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+.section-gallery__card__image4 {
+  width: 100%;
+  background-image: url("/src/assets/images/Capture d'écran 2024-01-29 182613.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+.section-gallery__card__image5 {
+  width: 100%;
+  background-image: url("/src/assets/images/Capture d'écran 2024-01-29 184034.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.button-portfolio {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 24px 34px;
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
+  border-radius: 10px;
+}
+.button-portfolio a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Fira Code", monospace;
+}
+
+.fiche-container {
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.kasa-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.kasa-button a {
+  padding: 8px 8px;
+  background: linear-gradient(90deg, rgb(169, 169, 169), orange);
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.fiche-banner {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  height: 300px;
+  background-image: url("/src/assets/images/image-kasa.png");
+  background-size: cover;
+}
+
+.fiche-text {
+  text-align: center;
+}
+.fiche-text h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.fiche-text p {
+  width: 75%;
+  margin: auto;
+  font-size: 20px;
+  font-family: "Fira Code", monospace;
+  border: 2px solid black;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.fleche-return {
+  margin-top: 30px;
+}
+.fleche-return_icon {
+  color: black;
+  font-size: 25px;
+}
+.fleche-return_icon i {
+  padding: 10px;
+}
+
+.tag-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.tag-container__button {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 8px 8px;
+  background-color: black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .tag-container__button {
+    font-size: 12px;
+  }
+}
+
+.blue {
+  background-color: #1498f9;
+}
+
+.red {
+  background-color: red;
 }
 
 * {

@@ -8,6 +8,12 @@ import Home from './pages/home.jsx'
 import Portfolio from './pages/portfolio.jsx'
 import Contact from './pages/contact.jsx'
 import Competence from './pages/competence.jsx'
+import Kasa from './pages/kasa.jsx'
+import Ohmyfood from './pages/ohmyfood.jsx'
+import Booki from './pages/booki.jsx'
+import Qwenta from './pages/qwenta.jsx'
+import Sophiebluel from './pages/sophiebluel.jsx'
+
 
 
 
@@ -30,12 +36,38 @@ const router = createBrowserRouter ([
       element: <Portfolio/>
     },
 
-   
-   
     {
       path: "/contact",
       element: <Contact/>
+    },
+    {
+      path: "/kasa",
+      element: <Kasa/>
+    },
+
+    {
+      path: "/ohmyfood",
+      element: <Ohmyfood/>
+    }, 
+
+    {
+      path: "/booki",
+      element: <Booki/>
+    },
+
+    {
+      path: "/qwenta",
+      element: <Qwenta/>
+    },
+
+    {
+      path: "/sophiebluel",
+      element: <Sophiebluel/>
     }
+
+
+
+
     ]
   }
 ])

@@ -16,21 +16,21 @@ const Competence = () => {
         <div className="section-competence__div1">
         <h2>Domaines de compétences</h2>
             <div className="section-competence__div1__text">
-            <i class="fa-solid fa-list-check"></i>
+            <i className="fa-solid fa-list-check"></i>
             <div>
             <h3>Gestion de projet web</h3>
            <p>Planification de projet - Methodologie agile</p>
             </div>
             </div>
             <div className="section-competence__div1__text">
-            <i class="fa-solid fa-image"></i>
+            <i className="fa-solid fa-image"></i>
             <div>
             <h3>Conception multi-plateformes</h3>
-           <p>Mobile first - media querie</p>
+           <p>Responsive - Mobile first - media querie</p>
             </div>
             </div>
             <div className="section-competence__div1__text">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-brands fa-google"></i>
             <div>
             <h3>Référencement SEO</h3>
             <p>microdatas - rich snippet - schema.org</p>
@@ -38,17 +38,18 @@ const Competence = () => {
             </div>
             </div>
             <div className="section-competence__div1__text">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-laptop-code"></i>
             <div>
             <h3>Developpement frontend avec react</h3>
            <p>react app - vite - react router - composants</p>
             </div>
             </div>
             <div className="section-competence__div1__text">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-screwdriver-wrench"></i>
             <div>
             <h3>Optimisation et debug</h3>
-            <p>outils de developpement - react devtools - ligththouse</p>
+            <p>react devtools - ligththouse</p><br/>
+         
            
             </div>
             </div>
@@ -57,8 +58,8 @@ const Competence = () => {
         <div className="section-competence__div2">
             <h2>Stacks</h2>
             <div className="section-competence__div1__text">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+            <i className="fa-brands fa-html5"></i>
+            <i className="fa-brands fa-css3"></i>
             <div>
             <h3>html - css</h3>
            
@@ -66,7 +67,7 @@ const Competence = () => {
             </div>
 
             <div className="section-competence__div1__text">
-            <i class="fa-brands fa-sass"></i>
+            <i className="fa-brands fa-sass"></i>
             <div>
             <h3>Sass</h3>
            
@@ -74,7 +75,7 @@ const Competence = () => {
             </div>
 
             <div className="section-competence__div1__text">
-            <i class="fa-brands fa-js"></i>
+            <i className="fa-brands fa-js"></i>
             <div>
             <h3>Javascript</h3>
            
@@ -82,7 +83,7 @@ const Competence = () => {
             </div>
 
             <div className="section-competence__div1__text">
-            <i class="fa-brands fa-react"></i>
+            <i className="fa-brands fa-react"></i>
             <div>
             <h3>React</h3>
            
@@ -90,34 +91,32 @@ const Competence = () => {
             </div>
 
             <div className="section-competence__div1__text">
-            <i class="fa-brands fa-node"></i>
+            <i className="fa-brands fa-node"></i>
             <div>
             <h3>NodeJs - ExpressJs</h3>
            
             </div>
             </div>
             
-            <div className="section-competence__div1__text">
-            <i class="fa-brands fa-git"></i>
-            <div>
-            <h3>git - github</h3>
            
-            </div>
-            </div>
 
-            <div className="section-competence__div1__text">
-            <i class="fa-brands fa-figma"></i>
-            <div>
-            <h3>Figma</h3>
-           
-            </div>
-            </div>
+          
         </div>
 
-
+       </section>
        
-
+       <section>
+       <div className="competence__div3">
+           <h2> Outils de développement</h2>
+            <div className="tag-container">
+      <span className="tag-container__button blue">VSCODE</span>
+      <span className="tag-container__button">DEV TOOLS</span>
+      <span className="tag-container__button">GIT-GITHUB</span>
+      <span className="tag-container__button red">FIGMA</span>
+      <span className="tag-container__button"></span>
       
+        </div>
+        </div>
        </section>
        
      </main>
